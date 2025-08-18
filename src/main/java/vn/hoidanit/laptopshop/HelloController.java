@@ -9,4 +9,13 @@ public class HelloController {
     public String index() {
         return "Hello world With T0mmy!";
     }
+     @GetMapping("/user")
+    public String userPage() {
+        return "Hello User";
+    }
+     @GetMapping("/admin")
+    public String adminPage() {
+        return "Hello Admin";
+    }
+    
 }
